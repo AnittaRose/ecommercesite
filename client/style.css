@@ -1,0 +1,224 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: rgb(34,40,32);
+    width: 100vh;
+    height:100vh;
+}
+.main{
+    background-color: rgb(184,201,149);
+    width: 209vh;
+    height: 109vh;
+    margin: auto;
+    border-radius: 5px; 
+    border: 1px solid  rgb(184,201,149) ; 
+}
+.top-content{
+    background-color:rgb(66,77,63);
+    border-radius: 5px;
+    width: 209vh;
+    font-size: 15px;
+    color: rgb(184,201,149);
+    font-weight: bold; 
+}
+ .store{
+    color: rgb(66,77,63);
+    font-size: 15px;
+}
+.jarock{
+    font-size: 18px;
+    color: rgb(66,77,63);
+}
+.cart{
+    width: 25px;
+}
+.search {
+    --input-line:rgb(66,77,63);
+    --input-text-color: #808080;
+    --input-text-hover-color: transparent;
+    --input-border-color: rgb(66,77,63);
+    --input-border-hover-color:rgb(184,201,149);
+    --input-bg-color: rgb(66,77,63);
+    --search-max-width: 250px;
+    --search-min-width: 150px;
+    --border-radius: 5px;
+    --transition-cubic-bezier: 150ms cubic-bezier(0.4,0,0.2,1);
+  }
+  
+  .search-box {
+    max-width: var(--search-max-width);
+    min-width: var(--search-min-width);
+    height: 35px;
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--border-radius);
+    padding: 5px 15px;
+    background: var(--input-bg-color);
+    box-shadow: 0 0 20px rgb(66,77,63);
+    transition: var(--transition-cubic-bezier);
+  }
+  
+  .search-box:hover {
+    border-color: var(--input-border-hover-color);
+  } 
+  
+  /*Section input*/
+.search-field {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: -5px;
+    border: 0;
+  }
+  
+  .input {
+    width: calc(100% - 29px);
+    height: 100%;
+    border: 0;
+    border-color: transparent;
+    font-size: 1rem;
+    padding-right: 0px;
+    color: rgb(184,201,149);
+    background: var(--input-bg-color);
+    border-right: 2px solid var(--input-border-color);
+    outline: none;
+  }
+  
+  .input::-webkit-input-placeholder {
+    color: var(--input-text-color);
+  }
+  
+  .input::-moz-input-placeholder {
+    color: var(--input-text-color);
+  }
+  
+  .input::-ms-input-placeholder {
+    color: var(--input-text-color);
+  }
+  
+  .input:focus::-webkit-input-placeholder {
+    color: var(--input-text-hover-color);
+  }
+  
+  .input:focus::-moz-input-placeholder {
+    color: var(--input-text-hover-color);
+  }
+  
+  .input:focus::-ms-input-placeholder {
+    color: var(--input-text-hover-color);
+  }
+  
+Search button*/
+   .search-box-icon {
+    width: 52px;
+    height: 35px;
+    position: absolute;
+    top: -6px;
+    right: -21px;
+    background: transparent;
+    border-bottom-right-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    transition: var(--transition-cubic-bezier);
+  }
+  
+  .search-box-icon:hover {
+    background: var(--input-border-color);
+  }
+  
+  .btn-icon-content {
+    width: 52px;
+    height: 35px;
+    top: -6px;
+    right: -21px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-bottom-right-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    transition: var(--transition-cubic-bezier);
+    opacity: .4;
+  }
+  
+  .btn-icon-content:hover {
+    opacity: .8;
+  }
+  
+  .search-icon {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 7px;
+    right: 15px;
+  }
+.cartnumber{
+    background-color:rgb(66,77,63) ;
+    width: 18px;
+    height: 19px;
+    border-radius: 15px;
+    color: rgb(184,201,149);
+    font-size: 12px;
+}
+.store:hover{
+    color: rgb(66,77,63);
+}
+.login{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(66,77,63);
+}
+.login:hover{
+    color: rgb(66,77,63);
+}
+.header{
+    width: 100%;
+    height: 90vh;
+}
+
+.bttn1{
+    background-color:rgb(184,201,149) ;
+    border: rgb(184,201,149);
+    border-radius: 5px;
+    color: rgb(66,77,63);
+}
+.bttn2{
+    background:transparent;
+    border: 1px solid rgb(184,201,149);
+    color:  rgb(184,201,149);
+
+}
+.static{
+    width: 55vh;
+    height: 60vh;
+    padding-top: 3px;
+ }
+ .power{
+    font-size: 70px;
+    color:  rgb(184,201,149);
+
+}
+.space{
+    padding-top: 19vh;
+    color:  rgb(184,201,149);
+    font-size: 18px;
+}
+.buttns{
+    padding-top: 13em;
+} 
+.bttn3{
+  background: none;
+  border: none;
+}
+.myaccountimage{
+  width: 20px;
+}
+.myaccountcontent{
+  font-size: 12px;
+  font-weight: bolder;
+  color: rgb(66,77,63);
+}
+.addtocart{
+  /* padding: 10px; */
+  
+}

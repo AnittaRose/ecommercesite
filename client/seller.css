@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bttn{
+    border: none;
+    background: none;
+}
+.user{
+    width: 25px;
+}
+.ce{
+    color: rgb(66,77,63);
+}
+.ce:hover{
+    color: rgb(66,77,63);
+
+}
+.cart{
+    width: 25px;
+}
+.cart12{
+    width: 22px;
+}
+.bag{
+    font-size: 14px;
+    color: rgb(66,77,63);
+}
+.bagnumber{
+    
+    background-color:rgb(66,77,63) ;
+    width: 10px;
+    height: 15px;
+    border-radius: 10px;
+    color: rgb(184,201,149);
+    font-size: 10px;
+
+}
+.bttn1{
+    background: none;
+    border: 2px solid rgb(66,77,63);
+}
+.land{
+    width: 208vh;
+    height: 55vh;
+}
+.facial{
+    background-color: rgb(66,77,63);
+    color: rgb(184,201,149);
+}
+.store{
+    color: rgb(66,77,63);
+    font-family: 12px;
+}
+.in{
+    color: rgb(66,77,63);
+}
+.in:hover{
+    color: rgb(66,77,63);
+}
+
+.YAROK{
+    width: 50%;
+    /* padding: 30px; */
+    padding-top: 5em;
+    padding-left: 15em;
+}
+.feed{
+    text-align: justify;
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(66,77,63);
+}
+.feedcontent{
+    position: relative;
+}
+.imagecontent{
+    position: absolute;
+}
+.main{
+    background-color: rgb(66,77,63);
+}
+
+.addtocart{
+    width: 90%;
+    background-color: rgb(66,77,63);
+    font-size: 15px;
+    color: rgb(184,201,149);
+    border: none;
+}
+.bannerimage{
+    width: 100%;
+    height: 100vh;
+}
+
+.body{
+    background-color:rgb(66,77,63) ;
+}
+.main{
+    background-color: rgb(184,201,149);
+    width: 208vh;
+    height: 125vh;
+    margin: auto;
+    /* border-radius: 20px; */
+    /* border: 1px solid  rgb(184,201,149) ; */
+}
+.darkgreenbox{
+    background-color:rgb(66,77,63);
+}
+.Allproducts{
+    color:rgb(184,201,149) ;
+    font-size: 55px;
+    font-weight: 600;
+}
+.images{
+    width: 90%;
+    /* height: 0vh; */
+}
+.product1{
+    border: 1px solid rgb(184,201,149);
+    width: 40%;
+}
+.product1font1{
+    font-size: 25px;
+    color: white;
+}
+.product1font2{
+    font-size: 20px;
+    color: rgb(184,201,149);
+}
+.bttnproduct{
+    width: 80%;
+    background-color: rgb(184,201,149);
+    border: none;
+    font-size: 12px;
+}

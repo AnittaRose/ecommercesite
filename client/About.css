@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: rgb(34,40,32);
+    width: 100vh;
+    height:100vh;
+}
+.main{
+    background-color: rgb(184,201,149);
+    width: 209vh;
+    height: 118vh;
+    margin: auto;
+    border-radius: 5px; 
+    border: 1px solid  rgb(184,201,149) ; 
+}
+.top-content{
+    background-color:rgb(66,77,63);
+    border-radius: 5px;
+    /* width: 209vh; */
+    font-size: 15px;
+    color: rgb(184,201,149);
+    font-weight: bold;
+}
+.store{
+    color: rgb(66,77,63);
+    font-size: 15px;
+}
+.jarock{
+    font-size: 18px;
+    color: rgb(66,77,63);
+}
+.cart{
+    width: 25px;
+}
+.cartnumber{
+    background-color:rgb(66,77,63) ;
+    width: 18px;
+    height: 19px;
+    border-radius: 15px;
+    color: rgb(184,201,149);
+    font-size: 12px;
+}
+.store:hover{
+    color: rgb(66,77,63);
+}
+.login{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(66,77,63);
+}
+.login:hover{
+    color: rgb(66,77,63);
+}
+.headermain{
+    padding: 10px;
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    /* border-radius: 8px; */
+}
+.power{
+    padding-top: 120%;
+    padding-left: 50px;
+    font-size: 70px;
+    color: rgb(184,201,149);
+}
+.powerr{
+    padding-top: 100%;
+    color: white;
+}

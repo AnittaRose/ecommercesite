@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  background-image: url(./images/Contact\ header.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.sea{
+  width: 65vh;
+  height: 80vh;
+}
+.sec{
+  border: 6px double black;
+  width: 130vh;
+  border-radius: 8px;
+
+}
+
+.action{
+  background-color: white;
+  width: 130vh;
+  height: 82vh;
+  border-radius: 8px;
+}
+
+.card1{
+  padding: 20px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  
+}
+
+.Personal{
+ color: rgb(184,201,149);
+  font-size: 18px;
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  flex-direction: column;
+  gap: 20px;
+  background: rgb(66,77,63); 
+  border-radius:100px 0px 100px 0px;
+  border: 5px double rgb(184,201,149);
+  /* box-shadow: 6px -1px 18px #c8c8c8, -2px -8px 32px rgb(218,231,197); */
+} 
+ 
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1em 0 1em 0;
+  /* max-width: 190px; */
+  position: relative;
+}
+
+.inputGroup input {
+  font-size: 100%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(184,201,149);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 319px;
+  color: rgb(184,201,149);
+}
+.login{
+  color: rgb(184,201,149);
+}
+.inputGroup label {
+  font-size: 100%;
+  position: absolute;
+  left: 0;
+  padding: 0.8em;
+  margin-left: 0.5em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: rgb(184,201,149);
+}
+
+.inputGroup :is(input:focus, input:valid)~label {
+  transform: translateY(-50%) scale(.9);
+  margin: 0em;
+  margin-left: 1.3em;
+  padding: 0.4em;
+  background-color:rgb(184,201,149);
+  color: rgb(81,134,0);
+}
+
+.inputGroup :is(input:focus, input:valid) {
+  border-color: rgb(184,201,149);
+}
+.enter {
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid rgb(184,201,149);
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 3em;
+  color: rgb(184,201,149);
+}
+
+.enter:hover {
+  background-color: rgb(66,77,63);
+  color:rgb(184,201,149);
+}
+.hi2{
+  padding: 0px 122px 0px 0px ;
+}
+.content{
+  padding-left: 40vh;
+  padding-top: 40vh;
+  font-size: 35px;
+  text-align: center;
+  /* color:rgb(184,201,149); */
+
+}
+.contact{
+  width: 100vh;
+  height: 100vh;
+  border-radius: 15px;
+  padding: 2px;
+  box-shadow: 14px 18px 85px 40px #000000;
+}
